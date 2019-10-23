@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>InfoGame</title>
+<style>
+    .flex-container {
+          display: flex;
+          flex-wrap: nowrap;
+          background-color: r gb(142, 29, 161);
+        }
+        
+        .flex-container > div {
+          background-color: #cf1e1e;
+          width: 100%;
+          margin: 20px;
+          text-align: center;
+          line-height: 50px;
+          font-size: 30px;
+        }
+        .flex-container2 {
+          display: flex;
+          flex-wrap: nowrap;
+          background-color: r gb(142, 29, 161);
+        }
+        
+        .flex-container2 > div {
+          width: 100%;
+          margin: 20px;
+          text-align: center;
+          line-height: 50px;
+          font-size: 30px;
+          color: #cf1e1e
+        }
+
+        .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        }
+
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #b99999;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+        display: block;
+        }
+    
+h1{
+        text-align: center;
+        color: crimson;
+        font-size: 200px;
+    }
+body {
+    background-image: url("FondoRojo.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color:  #000000;
+}
+</style>
+<h1>
+    InfoGame
+</h1>
+</head>
+<body>
+        <div class="flex-container">
+            <div>
+                    <div class="dropdown">
+                      <span>Noticias</span>
+                        <div class="dropdown-content">
+                            <a href="Ps4.html">PS4</a>
+                            <p>
+                                <a href="Xbox.html">Xbox</a>
+                            </p>
+                            <a href="NSW.html">NSW</a>
+                            <p>PC</p>
+                        </div>
+                    </div>
+            </div>
+            <div>
+                <a href="Análisis.html">Análisis</a>
+            </div>  
+            <div class="dropdown">
+                <a href="Tráilers.html">Tráilers</a>
+            </div>
+            <div>
+                <a href="soporte.html">Soporte</a>
+            </div>
+        </div>
+
+        <div class="flex-container2">
+            <div>¡Bienvenido a mi página! ¡Aquí podrás encontrar toda la información actual sobre videojuegos y más!</div>
+        </div>
+
+</body>
+</html>

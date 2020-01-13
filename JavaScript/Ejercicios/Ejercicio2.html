@@ -8,13 +8,23 @@
 
 <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
 
-<button onclick="document.getElementById('myImage').src='Holanegru.JPEG'">Inicio</button>
+<img id="myImage" src="Holanegru.jpeg" style="width:300px">
 
-<button onclick="document.getElementById('myImage').src='Adondevasnegru.JPEG'">Nudo</button>
+<button id="button1" onclick="document.getElementById('myImage').src='Holanegru.JPEG'">Inicio</button>
 
-<button onclick="document.getElementById('myImage').src='Adiosnegru.JPEG'">Desenlace</button>
+<button id="button2" onclick="document.getElementById('myImage').src='Adondevasnegru.JPEG'">Nudo</button>
 
-<img id="myImage" src="Holanegru.jpeg" style="width:100px">
+<button id="button3" onclick="document.getElementById('myImage').src='Adiosnegru.JPEG'">Desenlace</button>
 
+<button onclick="document.getElementById('myImage').style.display = 'block';
+document.getElementById('button1').style.display = 'block';document.getElementById('button2').style.display = 'block';document.getElementById('button3').style.display = 'block';">make MAAAGIC</button>
+
+<script>
+document.getElementById("myImage").style.display = "none"
+document.getElementById("button1").style.display = "none"
+document.getElementById("button2").style.display = "none"
+document.getElementById("button3").style.display = "none"
+
+</script>
 </body>
 </html>

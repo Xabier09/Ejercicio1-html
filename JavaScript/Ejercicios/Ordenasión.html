@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+    x=1
+    y=2
+    z=3
+function xyz (x,y,z) {
+    if (x<=y) {
+        console.log ("x<=y");
+        if (y<=z) {
+            console.log("y<=z")
+            console.log(x+"<="+y+"<="+z);
+        } else {
+            if (z<=x) {
+                console.log ("z<=x")
+                console.log(z+"<="+x+"<="+y)
+            } else {
+                console.log(x+"<="+z+"<="+y)
+            }
+        }
+    } else {
+        if (y<=z) {
+            console.log("y<=z")
+            console.log(y+"<="+z+"<="+x)         
+        } else {
+            if (z<=x) {
+                console.log("z<=x")
+                console.log(z+"<="+y+"<="+x)
+            } else {
+                console.log(z+"<="+x+"<="+y)
+            }
+        }
+    }
+}
+
+</script>
+<body>
+    Primer número --->
+    <input type="text" id="x"> <br>
+    Segundo número --->
+    <input type="text" id="y"> <br>
+    Tercer número --->
+    <input type="text" id="z"> <br>
+    <input type="button" onclick="document.getElementById">
+    
+</body>
+</html>

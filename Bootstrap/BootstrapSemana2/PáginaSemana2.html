@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Bootstrap-chan</title>
+    <style>
+        .centrado {
+            text-align: center;
+        }
+        body {
+            background-image: url('blue.png');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+  }
+    </style>
+    <script>
+      $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();   
+      });
+    </script>
+
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="row"> <!--Línea1----------------------------------------------------------------------------------------->
+        <div class="col-sm">
+          
+        </div>
+        <div class="col-sm">
+          
+          <div class="container p-3 my-3 bg-dark text-white">
+            <h1 class="centrado">Página-chan 2</h1>
+          </div>
+        
+        </div>
+        <div class="col-sm">
+         
+        </div>
+      </div>
+      <div class="row"> <!--Línea2----------------------------------------------------------------------------------------->
+        <div class="alert alert-primary" role="alert">
+
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="#"><p class="text-success">Navbar-chan :3</p></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="LogIn.html"><p class="text-info">Iniciar sesión</p> <span class="sr-only">(current)</span></a>
+                  </li>
+  
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.google.es/"><p class="text-warning">Go to google</p></a>
+                  </li>
+  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </a>
+  
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+  
+                </ul>
+  
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+  
+                <li class="nav-item active">
+                  <button type="button" class="btn btn-dark" onclick="">Dark</button>
+                </li>
+  
+                <li class="nav-item active">
+                  <button type="button" class="btn btn-light" onclick="">light</button>
+                </li>
+  
+              </div>
+            </nav>
+        </div>
+      </div>
+      <div class="row"><!--Línea3----------------------------------------------------------------------------------------->
+        <div class="col"> <!--Columna1----------------------------------------------------------------------------------------->
+          <div class="card">
+            <div class="card-header"><img src="Persona3p.jpg" alt="ayudame" width="304" height="354" style="text-align: center;"></div>
+            <div class="card-body"><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#persona3">Sinopsis</button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#persona3">
+                Plataformas
+              </button>
+
+              <!-- The Modal -->
+                <div class="modal" id="persona3">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Plataformas</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        PlayStation 2, PlayStationPortable
+                      </div>
+
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              <div id="persona3" class="collapse">
+                Entre un día y otro, al filo de la medianoche, <br>
+                la Hora Oscura, una hora secreta que separa un día del siguiente, <br>
+                sume al mundo de los humanos en las tinieblas y permite la aparición <br>
+                  de unas peligrosas criaturas conocidas como Sombras. Es ahí cuando <br>
+                  intervienen un grupo de estudiantes muy especiales que, con la capacidad <br>
+                    de convocar su «yo» interior, sus Personas, son capaces de enfrentarse <br>
+                    a las Sombras antes de que destruyan a la humanidad.
+              </div>
+            </div>
+            <div class="card-footer">More info: 
+              <div class="container">
+                <a href="https://en.wikipedia.org/wiki/Persona_3" data-toggle="tooltip" title="Link hacia la página de Wikipedia de Persona 3">Más información sobre Persona 3</a>
+                <div id="persona3i" class="carousel slide" data-ride="carousel">
+
+              
+                  <ul class="carousel-indicators">
+                    <li data-target="#persona3i" data-slide-to="0" class="active"></li>
+                    <li data-target="#persona3i" data-slide-to="1"></li>
+                    <li data-target="#persona3i" data-slide-to="2"></li>
+                  </ul>
+                  
+                 
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="Persona3Battle1.png" alt="Persona3" width="1100" height="500">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Persona3Battle2.png" alt="miau" width="1100" height="500">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Persona3Battle3.png" alt="guau" width="1100" height="500">
+                    </div>
+                  </div>
+                
+                  <a class="carousel-control-prev" href="#persona3i" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#persona3i" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col"> <!--Columna2----------------------------------------------------------------------------------------->
+          <div class="card">
+            <div class="card-header"><img src="Persona4.jpg" alt="ayudame" width="304" height="354" style="text-align: center;"></div>
+            <div class="card-body">
+              <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#persona4">Sinopsis</button>
+            
+              <!-- Button to Open the Modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#persona4">
+                Plataformas
+              </button>
+
+              <!-- The Modal -->
+              <div class="modal" id="persona4">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Plataformas</h4>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      PlayStation2, PlayStationVita
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div id="persona4" class="collapse">
+                Nrukami es el hijo de un político caído en desgracia que, junto con su padre y su hermana, han viajado a un pequeño pueblo después de vivir en Tokio. Después de un asesinato, algo inusual para un lugar así, pasa cerca de la escuela que se encuentra, las cosas se ponen aún más inusual cuando está casi tirado en la televisión en su casa, pero es salvado por el hecho de que es demasiado pequeño. Más tarde, sus amigos buscan un televisor más grande, y los tres de ellos caen en él y entrar en un mundo diferente: uno que les amenaza. Narukami responde a una voz, y lleva a cabo una 'persona' - algunos grandes seres, de gran alcance que lucha en su nombre en un mundo surrealista extraña
+              </div>
+            
+            
+            </div>
+          <div class="card-footer">More info: 
+            <div class="container">
+              <a href="https://es.wikipedia.org/wiki/Shin_Megami_Tensei:_Persona_4" data-toggle="tooltip" title="Link hacia la página de Wikipedia de Persona 4">Más información sobre Persona 4</a>
+              <div id="persona4i" class="carousel slide" data-ride="carousel">
+
+              
+                <ul class="carousel-indicators">
+                  <li data-target="#persona4i" data-slide-to="0" class="active"></li>
+                  <li data-target="#persona4i" data-slide-to="1"></li>
+                  <li data-target="#persona4i" data-slide-to="2"></li>
+                </ul>
+                
+               
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Persona4Battle1.png" alt="Persona3" width="1100" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Persona4Battle2.png" alt="miau" width="1100" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Persona4Battle3.png" alt="guau" width="1100" height="500">
+                  </div>
+                </div>
+              
+                <a class="carousel-control-prev" href="#persona4i" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#persona4i" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="col"> <!--Columna3----------------------------------------------------------------------------------------->
+          <div class="card">
+            <div class="card-header"><img src="persona_5-3541879.jpg" alt="ayudame" width="304" height="354" style="text-align: center;"></div>
+            <div class="card-body">
+              <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#persona5">Sinopsis</button>
+            
+              <!-- Button to Open the Modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#persona5">
+                Plataformas
+              </button>
+
+              <!-- The Modal -->
+              <div class="modal" id="persona5">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Plataformas</h4>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      PlayStation3, PlayStation4
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div id="persona5" class="collapse">
+                Persona 5 es un juego sobre los conflictos internos y externos de un grupo de adolescentes problemáticos (el protagonista y una serie de compañeros que irá conociendo durante la trama) que viven una doble vida como ladrones de guante blanco.
+              </div>
+            
+            
+            </div>
+          <div class="card-footer">More info: 
+            <div class="container">
+              <a href="https://es.wikipedia.org/wiki/Persona_5" data-toggle="tooltip" title="Link hacia la página de Wikipedia de Persona 4">Más información sobre Persona 5</a>
+              <div id="persona5i" class="carousel slide" data-ride="carousel">
+
+              
+                <ul class="carousel-indicators">
+                  <li data-target="#persona5i" data-slide-to="0" class="active"></li>
+                  <li data-target="#persona5i" data-slide-to="1"></li>
+                  <li data-target="#persona5i" data-slide-to="2"></li>
+                </ul>
+                
+               
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Persona5Battle1.png" alt="Persona3" width="1100" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Persona5Battle2.png" alt="miau" width="1100" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Persona5Battle3.png" alt="guau" width="1100" height="500">
+                  </div>
+                </div>
+              
+                <a class="carousel-control-prev" href="#persona5i" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#persona5i" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      </div>
+            
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="ScriptPrueba.js"></script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+

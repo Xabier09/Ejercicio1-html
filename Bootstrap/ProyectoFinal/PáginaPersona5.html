@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Bootstrap-chan</title>
+    <style>
+
+        div.sticky {
+          position: -webkit-sticky;
+          position: sticky;
+          top: 50px;
+          font-size: 15px;
+        }
+
+        div.scroll { 
+          margin:4px, 4px; 
+          padding:4px; 
+          background-color: green; 
+          width: 850px; 
+          height: 500px; 
+          overflow-x: hidden; 
+          overflow-x: auto; 
+          text-align:justify; 
+            } 
+        
+        .centrado {
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-image: url('Persona5fondoa.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+  }
+    </style>
+    <script>
+      $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();   
+      });
+    </script>
+
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="row"> <!--Línea1----------------------------------------------------------------------------------------->
+        <div class="col-sm">
+          
+          <div class="container p-3 my-3 text-white">
+            <h1 class="centrado"> <img src="P5logo.png" alt="" width="350" height="250"> </h1>
+          </div>
+        
+        </div>
+      </div>
+      <div class="row"> <!--Línea2----------------------------------------------------------------------------------------->
+        <div class="col">
+          <div class="alert alert-danger" role="alert">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><p class="text-danger">Persona5</p></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+            
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="paginaprincipal.html"><p> <strong> <em> Página Inicial</em></strong></p></a>
+                    </li>
+    
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+    
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="PáginaPersona3.html"> <p class="text-primary"> Persona 3</p></a>
+                        <a class="dropdown-item" href="PáginaPersona4.html"> <p class="text-warning"> Persona 4</p></a>
+                      </div>
+    
+                  </ul>
+    
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+          </div>
+        </div>
+      </div>
+      <div class="row"><!--Línea3----------------------------------------------------------------------------------------->
+        <div class="col"> <!--Columna1----------------------------------------------------------------------------------------->
+          <div class="sticky">
+            <div class="card">
+              <div class="card-header"><img src="persona_5-3541879.jpg" alt="ayudame" width="304" height="354" style="text-align: center;"></div>
+              <div class="card-body"><button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#persona3">Comprar</button>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#persona3">
+                  Plataformas
+                </button>
+
+                <!-- The Modal -->
+                  <div class="modal" id="persona3">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h4 class="modal-title">Plataformas</h4>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          PlayStation 3, PlayStation 4
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                <div id="persona3" class="collapse">
+                  <a href="https://www.amazon.es/Persona-5-Royal-Launch-Edition/dp/B082JGT5DJ/ref=sr_1_1?dchild=1&keywords=Persona+5&qid=1590603861&s=videogames&sr=1-1"><img src="amazon.png" alt=""></a> 
+                  <a href="https://store.playstation.com/es-es/product/EP0177-CUSA17419_00-PERSONA5R0000000"><img src="psstore.png" alt=""></a> 
+                </div>
+              </div>
+              <div class="card-footer">More info: 
+                <div class="container">
+                  <a href="https://es.wikipedia.org/wiki/Persona_5" data-toggle="tooltip" title="Link hacia la página de Wikipedia de Persona 3">Más información sobre Persona 5</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="col-8">
+          <div class="card">
+            <div class="card-header"><h2>PERSONA 5</h2></div>
+            <div class="card-body">
+              <h2>
+                HISTORIA
+              </h2>
+              <p>
+                Persona 5 se desarrolla en el universo de la saga Persona, en la época actual, donde un grupo de gente se enfrentan a fuerzas oscuras gracias al poder de los Personas, manifestaciones de su psique interior. Sin dar una fecha específica, los eventos del juego tienen lugar a principios del año “20XX”. Persona 5 se sitúa en Tokio, en la época actual, en localizaciones reales como Akihabara, Shinjuku y Shibuya entre otras. Una de las principales localizaciones del juego es la ficticia Academia Shujin, donde el protagonista y sus amigos asisten a clases. Otros lugares clave en la trama son el Metaverso, un mundo paralelo creado de la amalgama de los corazones de los seres humanos, y los Palacios, estructuras del Metaverso surgidas de los deseos corruptos de ciertos individuos. Aunque el Metaverso nació de las esperanzas y los sueños de la gente, ahora se encuentra corrompido por las acciones de las figuras de autoridad que rigen el mundo. El jugador también acudirá frecuentemente a la Velvet Room (la Habitación de Terciopelo), un espacio metafísico para el desarrollo interior de aquellos capaces de utilizar a sus Personas y cuyo aspecto cambia dependiendo de quién lo visite. En Persona 5, adopta la forma de una cárcel.
+              </p>
+            </div>
+            <div class="card-body">
+              <h2>
+                GAMEPLAY
+              </h2>
+              <P>
+                Persona 5 es un juego de rol donde el jugador asume el papel de un estudiante de secundaria a lo largo de todo un año en el que asiste a la escuela secundaria en Tokio. El juego se rige por un ciclo de día y noche y por eventos climáticos que marcan el comportamiento general de los personajes similar a los juegos de simulación social. Durante el año, suceden tanto eventos programados como aleatorios: asistir a la escuela, tener empleos a tiempo parcial, participar en actividades de ocio o crear objetos para usar en otras áreas del juego, entre otros. Estas diversas actividades incrementan los atributos del personaje y le otorgarán efectos beneficiosos pasivos durante las batallas.
+              </P>
+              <p>
+                Mientras está en el mundo real, el protagonista puede establecer relaciones con otros personajes llamados Confidants (Confidentes), una evolución del sistema de Social Link (Enlace Social) de los videojuegos Persona 3 y Persona 4. Con este sistema, el protagonista puede mantener y mejorar su relación con otros personajes que conoce desarrollando pequeñas historias independientes de la trama y pudiendo incluso desarrollar relaciones amorosas con algunos de ellos. Cada Confidente se simboliza con uno de los Arcanos Mayores del Tarot y otorgan distintos beneficios a nuestro personaje según cuanto hayamos progresado en la relación con ellos. Por ejemplo, todos los personajes jugables del grupo de los Phantom Thieves pueden utilizar la habilidad Baton Pass (Pase del Testigo), lo que permite al jugador cambiar a otro personaje después de realizar un golpe crítico sobre el enemigo a la vez que le otorga un incremento de poder temporal. Otros Confidentes mejoran nuestras habilidades de negociación o dan acceso a nuevos artículos y equipos.
+              </p>
+              <h2>
+                PERSONAJES
+              </h2>
+              <h4><strong><em>Protagonista</em></strong></h4>
+              <p>
+                De acuerdo con la tradición de la franquicia Megami Tensei, es un protagonista silencioso, él cuya personalidad se basa en las acciones y decisiones del jugador. Sin embargo, él parece tener rasgos más establecidos que cualquiera de los protagonistas anteriores. Sus opciones de diálogo van desde algo indiferente a descarado. El juego permite una gran cantidad de respuestas juguetonas, sarcásticas o audaces, incluidas las burlas de sus amigos. También se burla de sus enemigos como el famoso Arsène Lupin. En la escena del prólogo, sigue siendo arrogante y confiado incluso cuando su vida está en peligro. También tiene talento para presumir y tomar decisiones dramáticas, como salir saltando a través de las vidrieras del Casino, para gran sorpresa de los otros Ladrones Fantasma. Esto incluso se refleja en el juego, ya que cuando se convierte en un ratón, hace un salto extravagante después de escapar de una batalla.
+              </p>
+              <img src="Persona5char.png" alt="" width="450" height="450">
+              <h4><strong><em>Ann Takamaki</em></strong></h4>
+              <p>
+                Ann es una chica muy amable y compasiva, lo suficiente como para que Morgana y Sojiro Sakura la noten. Años de aislamiento debido a su aspecto la han dejado muy retraída y con la creencia de que ha perdido su lugar en el mundo, pero eso no le impide abrirse a las personas cercanas a ella y hacer bromas. Esto se debe a que aprendió a no preocuparse por lo que otras personas piensan de ella, una lección que le enseñó Shiho Suzui, quien era su única amiga antes de unirse a los Ladrones Fantasma. Se ha demostrado que es una buena juez de carácter, ya que fue la primera persona capaz de pasar por alto los rumores del protagonista y ver quién es realmente (mientras que Ryuji Sakamoto se hizo amigo de él antes que ella, fue porque lo vio como solo otro "alborotador" y no aprendió su historia completa hasta más tarde). Su buen juicio hacia los demás también se demuestra por su disposición a perdonar a Makoto después de conocer su lado de la historia en el incidente con Suguru Kamoshida, a saber, que ella quería hacer algo pero se sentía impotente para detenerlo, al darse cuenta de que no era demasiado. diferente de su propia situación. Antes de esto, también conforta a Makoto cuando se llama a sí misma "escoria de la Tierra" debido a su fracaso para ayudar a las víctimas de Kamoshida, diciendo que si Makoto realmente era escoria, no se llamaría a sí misma así.
+              </p>
+              <img src="Ann.png" alt="" width="450" height="450">
+              <h4><strong><em>Ryuji Sakamoto</em></strong></h4>
+              <p>
+                Ryuji es conocido como un "estudiante problemático" disruptivo en la escuela cuyo mal comportamiento causa todo tipo de problemas para los maestros. Está bastante orgulloso de su condición de autoproclamado "problemático" y su naturaleza rebelde, traviesa y desobediente son las cualidades perfectas para ser un Ladrón Fantasma. A veces puede ser vulgar y agresivo, como se muestra en sus primeras interacciones con Yusuke Kitagawa y Makoto Niijima. También tiene un poco de mal genio, y se ofende con facilidad incluso por el más mínimo de los comentarios. Dicho esto, nunca recurrirá a la violencia, a menos que sea provocado por Suguru Kamoshida. Él es muy sencillo cuando se trata de expresar sus sentimientos, especialmente en lo que respecta a su odio hacia los adultos egoístas y las figuras de autoridad que abusan de su poder. Él es profundamente empático cuando se trata de la difícil situación de los demás; el simple hecho de escuchar la historia del protagonista de cómo fue arrestado lo pone extremadamente enojado, y escuchar sobre el abuso sexual de Kamoshida lo disgusta enormemente.
+              </p>
+              <img src="Ryuji.png" alt="" width="450" height="450">
+
+              
+
+            </div>
+              <div class="card-footer"> 
+                <h2>Galería</h2>
+                <h3>Imágenes</h3>
+                <div class="container">
+                  <div id="persona5i" class="carousel slide" data-ride="carousel">
+  
+                
+                    <ul class="carousel-indicators">
+                      <li data-target="#persona5i" data-slide-to="0" class="active"></li>
+                      <li data-target="#persona5i" data-slide-to="1"></li>
+                      <li data-target="#persona5i" data-slide-to="2"></li>
+                    </ul>
+                    
+                   
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Persona5Battle1.png" alt="Persona3" width="1100" height="500">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Persona5Battle2.png" alt="miau" width="1100" height="500">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Persona5Battle3.png" alt="guau" width="1100" height="500">
+                      </div>
+                    </div>
+                  
+                    <a class="carousel-control-prev" href="#persona5i" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#persona5i" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+                </div>
+                <h3>Vídeos</h3>
+                <div class="container">
+                  <div id="persona5v" class="carousel slide" data-ride="carousel">
+  
+                
+                    <ul class="carousel-indicators">
+                      <li data-target="#persona5v" data-slide-to="0" class="active"></li>
+                      <li data-target="#persona5v" data-slide-to="1"></li>
+                      <li data-target="#persona5v" data-slide-to="2"></li>
+                    </ul>
+                    
+                   
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <iframe width="660" height="415" src="https://www.youtube.com/embed/Typ1WD3WWBs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <div class="carousel-item">
+                        <iframe width="660" height="415" src="https://www.youtube.com/embed/gJIl44rbcJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <div class="carousel-item">
+                        <iframe width="660" height="415" src="https://www.youtube.com/embed/f3bVM2mxh4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  
+                    <a class="carousel-control-prev" href="#persona5v" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#persona5v" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+                </div>
+                <h2>Tráiler</h2>
+                <p>
+                    <iframe width="660" height="415" src="https://www.youtube.com/embed/QnDzJ9KzuV4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+            
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="ScriptPrueba.js"></script>
+
+  </body>
+</html>
+
+
+
+
+
+
+

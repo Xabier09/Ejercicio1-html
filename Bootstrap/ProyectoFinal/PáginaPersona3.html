@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Bootstrap-chan</title>
+    <style>
+
+        div.sticky {
+          position: -webkit-sticky;
+          position: sticky;
+          top: 50px;
+          font-size: 15px;
+        }
+
+        div.scroll { 
+          margin:4px, 4px; 
+          padding:4px; 
+          background-color: green; 
+          width: 850px; 
+          height: 500px; 
+          overflow-x: hidden; 
+          overflow-x: auto; 
+          text-align:justify; 
+            } 
+        
+        .centrado {
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-image: url('Persona3fondo.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+  }
+    </style>
+    <script>
+      $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();   
+      });
+    </script>
+
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="row"> <!--Línea1----------------------------------------------------------------------------------------->
+        <div class="col-sm">
+          
+          <div class="container p-3 my-3 text-white">
+            <h1 class="centrado"> <img src="Persona_3_Logo.png" alt="" width="350" height="250"> </h1>
+          </div>
+        
+        </div>
+      </div>
+      <div class="row"> <!--Línea2----------------------------------------------------------------------------------------->
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><p class="text-primary">Persona3</p></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+            
+    
+                    <li class="nav-item">
+                      <a class="nav-link" href="paginaprincipal.html"><p><strong> <em> Página Inicial</em></strong></p></a>
+                    </li>
+    
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+    
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="PáginaPersona4.html"><p class="text-warning"> Persona 4</p></a>
+                        <a class="dropdown-item" href="PáginaPersona5.html"><p class="text-danger"> Persona 5</p></a>
+                      </div>
+    
+                  </ul>
+    
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+          </div>
+        </div>
+      </div>
+      <div class="row"><!--Línea3----------------------------------------------------------------------------------------->
+        <div class="col"> <!--Columna1----------------------------------------------------------------------------------------->
+          <div class="sticky">
+            <div class="card">
+              <div class="card-header"><img src="Persona3p.jpg" alt="ayudame" width="304" height="354" style="text-align: center;"></div>
+              <div class="card-body"><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#persona3">Comprar</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#persona3">
+                  Plataformas
+                </button>
+
+                <!-- The Modal -->
+                  <div class="modal" id="persona3">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h4 class="modal-title">Plataformas</h4>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          PlayStation 2, PlayStationPortable
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                <div id="persona3" class="collapse">
+                  <a href="https://www.amazon.es/Shin-Megami-Tensei-P3-Persona3/dp/B0014CN2H6"><img src="amazon.png" alt=""></a> 
+                  <a href="https://store.playstation.com/es-es/product/EP0005-NPED00271_00-GPERSONA3F000001"><img src="psstore.png" alt=""></a> 
+                </div>
+              </div>
+              <div class="card-footer">More info: 
+                <div class="container">
+                  <a href="https://en.wikipedia.org/wiki/Persona_3" data-toggle="tooltip" title="Link hacia la página de Wikipedia de Persona 3">Más información sobre Persona 3</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="col-8">
+          <div class="card">
+            <div class="card-header"><h2>PERSONA 3</h2></div>
+            <div class="card-body">
+              <h2>
+                HISTORIA
+              </h2>
+              <p>
+                Un adolescente que quedó huérfano a temprana edad regresa a la ciudad de su infancia, Iwatodai. Poco después de ser transferido a la escuela preparatoria Gekkoukan, es atacado por sombras, criaturas que se alimentan de la mente de sus víctimas. Este ataque despierta su Persona interior, Orpheus, su única oportunidad para vencer a estas criaturas de la noche. Pronto descubre que otros estudiantes de la escuela también tienen ese poder. De ellos aprende todo sobre la "Dark Hour" (Hora oscura), una hora oculta que separa un día del siguiente; y que sume al mundo en las sombras. Todo se paraliza, dejando campar a sus anchas a todas las sombras. El protagonista se une al grupo "Specialized Extracurricular Execution Squad" (Unidad Extraescolar Especializada en Ejecuciones -de sus misiones-, SEES), y con sus compañeros, lucha contra la amenaza de las sombras, y a la vez que exploran el Tartarus, una extraña y gigantesca torre repleta de peligros en la que se transforma la escuela durante la Dark Hour.
+              </p>
+            </div>
+            <div class="card-body">
+              <h2>
+                GAMEPLAY
+              </h2>
+              <P>
+                Algo que podría tomarse como un gran cambio a diferencia de juegos anteriores en la saga, es que Persona 3 cuenta con una mezcla inusual entre simulador de vida escolar y RPG; donde a diferencia de la mayoría de RPGs a la fecha, los días pasan basándose en el calendario. Aquí la escuela toma un rol importante, donde debes acudir a eventos escolares, clubes, estudiar, atender asuntos con otros personajes; pero cuando llega la noche, se debe explorar el Tartarus (dependiendo de tu condición física). El Tartarus, es una "torre-laberinto" infestada de monstruos llamados Shadows, en cual se transforma la escuela a la medianoche. Este cambio entre día y noche, le da un toque que hace resaltar a este juego entre la saga de Shin Megami Tensei y cualquier otro RPG hasta el momento.
+              </P>
+              <p>
+                En pelea, los personajes son ayudados por sus Personas, seres que son llamados con la ayuda de un instrumento en forma de pistola llamada "Evoker" (Evocador), con el cual deben apuntarse a la cabeza y dispararse para invocar a su Persona. En combate solo se controla al personaje principal, mientras que sus compañeros ejercen sus turnos mediante inteligencia artificial u ordenar a tus compañeros específicos Comandos directos, a pesar de esto se le pueden dar parámetros de estrategia a tus aliados si el jugador lo desea o no. Dependiendo como se lleven las relaciones con los demás, se podrán conseguir nuevos y más poderosos Personas o mejorar a los ya adquiridos mediante el sistema de "Social Links" (Enlaces sociales), lo cual lleva a que la parte social dentro del juego sea de gran importancia dentro del mismo.
+              </p>
+              <h2>
+                PERSONAJES
+              </h2>
+              <h4><strong><em>Protagonista</em></strong></h4>
+              <p>
+                Seiyū: Akira Ishida (masculino), Seiyū: Marina Inoue (femenino)
+                El protagonista de Persona 3 (llamado Minato Arisato (有里 湊 Arisato Minato?) en la adaptación manga, Makoto Yuki (結城 理 Yūki Makoto?) en la adaptación cinematográfica y Sakuya Shiomi en la adaptación teatral) es un chico de segundo año de instituto que acaba de transferirse al instituto Gekkoukan. En las adaptaciones se le muestra como un chico un tanto frío y callado, que no tiene miedo del peligro y resulta incluso temerario. Su arma principal es una espada (aunque en el juego original puede usar varios tipos de armas) y su persona inicial es Orpheus del Fool Arcana (Arcana del Loco).
+              </p>
+              <p>
+                En la versión de PSP Persona 3 Portable se añadió una protagonista femenina (llamada Kotone Shiomi en la adaptación teatral), con un diseño y una personalidad opuestos a los del protagonista masculino: es una chica agradable y risueña. Su arma principal es una naginata y su persona inicial es también Orpheus, aunque con un diseño distinto al del protagonista masculino.2​ Ambos protagonistas son poseedores de la Wild Card, un extraño objeto que les otorga la habilidad de invocar cualquier Persona que deseen.
+              </p>
+              <img src="Persona3char.png" alt="">
+              <h4><strong><em>Yukari Takeba</em></strong></h4>
+              <p>
+                Una chica de segundo año y compañera de clase del protagonista que pertenece al club de arquería. Es una chica popular y que causa buena impresión en la gente, pero en el fondo le cuesta confiar en la gente y no tiene muchos amigos. Suele pelearse con Junpei cuando éste intenta seducir a alguna compañera. Su arma principal es un arco y su Persona es Io que luego evoluciona a Isis donde pertenece al Lovers Arcana (Arcana de los Amantes), y representa el Social Link de este mismo Arcana. El protagonista masculino puede mantener un romance con ella.
+              </p>
+              <img src="Yukari.png" alt="">
+              <h4><strong><em>Junpei Iori</em></strong></h4>
+              <p>
+                Un chico de segundo año y compañero de clase del protagonista que se incorpora a SEES poco después del protagonista. Actúa como el payaso de la clase para esconder sus inseguridades, su baja autoestima y los celos que siente del protagonista, por tener más relevancia en SEES que él. Su arma principal es una espada a dos manos y su Persona es Hermes que luego evoluciona a Trimegistus del Magician Arcana (Arcana del Mago) En la ruta de la protagonista femenina representa el Social Link de este mismo Arcana.
+              </p>
+              <img src="Jumpei.png" alt="">
+
+              
+
+            </div>
+              <div class="card-footer"> 
+                <h2>Galería</h2>
+                <h3>Imágenes</h3>
+                <div class="container">
+                  <div id="persona3i" class="carousel slide" data-ride="carousel">
+  
+                
+                    <ul class="carousel-indicators">
+                      <li data-target="#persona3i" data-slide-to="0" class="active"></li>
+                      <li data-target="#persona3i" data-slide-to="1"></li>
+                      <li data-target="#persona3i" data-slide-to="2"></li>
+                    </ul>
+                    
+                   
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Persona3Battle1.png" alt="Persona3" width="1100" height="500">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Persona3Battle2.png" alt="miau" width="1100" height="500">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Persona3Battle3.png" alt="guau" width="1100" height="500">
+                      </div>
+                    </div>
+                  
+                    <a class="carousel-control-prev" href="#persona3i" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#persona3i" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+                </div>
+                <h3>Vídeos</h3>
+                <div class="container">
+                  <div id="persona3v" class="carousel slide" data-ride="carousel">
+  
+                
+                    <ul class="carousel-indicators">
+                      <li data-target="#persona3v" data-slide-to="0" class="active"></li>
+                      <li data-target="#persona3v" data-slide-to="1"></li>
+                      <li data-target="#persona3v" data-slide-to="2"></li>
+                    </ul>
+                    
+                   
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <iframe width="660" height="415" src="https://www.youtube.com/embed/lGjPut-k-7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <div class="carousel-item">
+                        <iframe width="660" height="415" src="https://www.youtube.com/embed/-jUcHB4k1tM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <div class="carousel-item">
+                        <iframe width="660" height="415" src="https://www.youtube.com/embed/XZNJfugztjM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  
+                    <a class="carousel-control-prev" href="#persona3v" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#persona3v" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+                </div>
+                <h2>Tráiler</h2>
+                <p>
+                  <iframe width="660" height="415" src="https://www.youtube.com/embed/T85-Obx9iE8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+            
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="ScriptPrueba.js"></script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
